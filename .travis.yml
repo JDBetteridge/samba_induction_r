@@ -9,8 +9,10 @@ install:
 
 script:
   - nbfancy configure -y all_magic
- # - nbfancy render
- # - nbfancy render --output_dir=fancyws worksheet
+ #  - nbfancy rerun
+ #  - nbfancy rerun --output_dir=worksheet worksheet
+  - nbfancy render
+  - nbfancy render --output_dir=fancyws worksheet
   - nbfancy html
   - nbfancy html --output_dir=html/worksheet fancyws
   - cp html/worksheet/01_r_worksheet.html html/index.html
