@@ -7,3 +7,4 @@ This material was created by:
  - Emiko Dupont
  - [William Graham](http://people.bath.ac.uk/wg270)
  - [Robbie Peck](http://people.bath.ac.uk/rp286)
+ - Teo Deveney
